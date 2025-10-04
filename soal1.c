@@ -5,7 +5,7 @@
 int main(){
 	int n = 0, count = 0;
 	scanf("%d", &n);
-	float x[n], maks = INT_MIN, total = 0;
+	float x[1000], maks = INT_MIN, total = 0;
 	
 	for (int i = 0; i < n; i++){
 		float a;
